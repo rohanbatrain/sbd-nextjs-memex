@@ -218,7 +218,13 @@ htmlcov/
 .tox/
 *.cover
 
-# Build
 build/
 dist/
 *.egg-info/
+
+# Next.js
+/.next/
+/out/
+node_modules/
+.vercel
+.env*.local
